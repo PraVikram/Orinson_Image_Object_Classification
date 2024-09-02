@@ -10,7 +10,7 @@ def main():
     st.title("Object Detection and Classification")
     st.write("Upload an image to detect and classify objects using YOLOv8.")
 
-    uploaded_image = st.file_uploader(type=["jpg", "jpeg", "png"])
+    uploaded_image = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 
     if uploaded_image is not None:
 
