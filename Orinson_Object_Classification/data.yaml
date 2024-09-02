@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['bicycles', 'buses', 'crosswalks', 'fire hydrants', 'motorcycles', 'traffic lights', 'vehicles']
+
+roboflow:
+  workspace: roboflow-100
+  project: road-traffic
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/roboflow-100/road-traffic/dataset/4
